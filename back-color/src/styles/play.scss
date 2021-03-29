@@ -1,0 +1,43 @@
+.quiz {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.choice {
+  background-color: red;
+  cursor: pointer;
+}
+
+.choice:hover {
+  transform: scale(1.05);
+}
+
+.choice .content {
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.choice-pane {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin: 2.5rem 0 2.5rem 0;
+}
+
+.bg-red {
+  background-color: hsl(0, 50%, 60%);
+}
+
+.bg-green {
+  background-color: hsl(93, 50%, 60%);
+}
+
+.bg-blue {
+  background-color: hsl(212, 50%, 60%);
+}
+
+.bg-yellow {
+  background-color: hsl(59, 50%, 60%);
+}

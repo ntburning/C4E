@@ -1,0 +1,40 @@
+html, body {
+  height: 100%; }
+
+.main-content {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.color-pane {
+  display: flex; }
+
+.color-choice {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0.8;
+  margin: 16px;
+  border-radius: 100%;
+  border: 1px solid #cccccc; }
+
+.color-choice:hover {
+  opacity: 1; }
+
+.game-pane {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+
+.quiz {
+  font-size: 1.1rem; }
+
+#result {
+  margin-top: 8px;
+  font-weight: normal; }
+
+
+/*# sourceMappingURL=bundle.css.map*/
