@@ -1,0 +1,21 @@
+@import './common.scss';
+
+#cat_img {
+  height: 300px;
+  width: auto;
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+#settings {
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#settings svg {
+  margin-right: 0.5rem;
+}

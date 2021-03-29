@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace; }
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#main_content {
+  border: 1px #cccccc solid;
+  padding: 1rem;
+  width: 16rem;
+  height: 30rem; }
+
+.box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.full-height {
+  height: 100%; }
+
+.full-width {
+  width: 100%; }
+
+.text-center {
+  text-align: center; }
+
+.btn {
+  background-color: #cccccc;
+  padding: 0;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8; }
+
+.btn:hover {
+  opacity: 1; }
+
+.hint {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
+
+#cat_img {
+  height: 300px;
+  width: auto;
+  border: 1px solid #dddddd;
+  padding: 5px; }
+
+#settings {
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center; }
+
+#settings svg {
+  margin-right: 0.5rem; }
+
+
+/*# sourceMappingURL=bundle.css.map*/

@@ -1,0 +1,47 @@
+@import './common.scss';
+
+#search_bar {
+  display: flex;
+  align-items: center;
+}
+
+#search_bar input {
+  height: 2rem;
+  width: 20rem;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+#search_results {
+  width: 20rem;
+}
+
+.video-result {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  height: 90px;
+}
+
+.video-result img {
+  margin-right: 0.5rem;
+}
+
+#main_content {
+  display: flex;
+  margin-top: 2rem;  
+}
+
+#main_content #video_player {
+  margin-right: 1rem;
+}
+
+.video-result span {
+  overflow-y: hidden;
+  display: inline-block;
+  max-height: 100%;
+}

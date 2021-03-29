@@ -1,0 +1,36 @@
+@import './common.scss';
+
+#search_bar {
+  display: flex;
+  align-items: center;
+}
+
+#search_bar input {
+  height: 2rem;
+  width: 12rem;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+#pokemon_content {
+  margin-top: 1rem;
+  min-height: 187px;
+  display: flex;
+  flex-flow: column;
+}
+
+#pokemon_content #name {
+  font-weight: bold;
+}
+
+#pokemon_image {
+  height: 8rem;
+}
+
+#message {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

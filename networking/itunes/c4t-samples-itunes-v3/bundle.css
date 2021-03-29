@@ -1,0 +1,132 @@
+body, html {
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace; }
+
+* {
+  font-size: 1rem; }
+
+h1 {
+  font-size: 2rem; }
+
+#root {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.full-height {
+  height: 100%; }
+
+.full-width {
+  width: 100%; }
+
+.text-center {
+  text-align: center; }
+
+.btn {
+  background-color: #cccccc;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 2rem; }
+
+.btn:hover {
+  opacity: 1; }
+
+.hint {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
+
+select {
+  background-color: #ffffff;
+  outline: none;
+  font-family: 'Courier New', Courier, monospace; }
+
+.input-control {
+  display: inline-block; }
+
+.input-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem; }
+
+#root {
+  align-items: flex-start; }
+
+#page_title {
+  text-align: center; }
+
+#top_songs {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 1rem;
+  min-width: 649px; }
+
+.song-item {
+  width: 100px; }
+
+.song-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+.song-item .song-name {
+  max-width: 100%;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  max-height: 1rem;
+  margin-top: 0.2rem; }
+
+.song-item .song-artist {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  max-height: 1rem;
+  overflow: hidden; }
+
+.song-item .song-preview {
+  font-size: 0.8rem;
+  color: #4040b5;
+  opacity: 0.8;
+  cursor: pointer;
+  font-weight: bold; }
+
+.song-item .song-preview:hover {
+  opacity: 1; }
+
+.input-control {
+  margin-right: 1rem; }
+
+#options {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+#quantity_input {
+  min-width: 3rem;
+  max-width: 5rem; }
+
+#loading {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+
+/*# sourceMappingURL=bundle.css.map*/
