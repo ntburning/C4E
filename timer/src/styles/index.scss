@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  font-size: 1.1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input::placeholder,
+button,
+input {
+  font-size: 1.1rem;
+  font-family: 'Courier New', Courier, monospace;  
+}
+
+input[type=number] {
+  text-align: right;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #cccccc;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 4rem;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#input_seconds {
+  width: 8rem;
+}
+
+#time_left {
+  font-size: 1.5rem;
+  margin: 1rem 0 0 0;
+  text-align: right;
+  font-weight: bold;
+}
+

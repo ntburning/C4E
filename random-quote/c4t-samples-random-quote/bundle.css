@@ -1,0 +1,42 @@
+html, body {
+  height: 100%; }
+
+* {
+  font-family: 'Courier New', Courier, monospace; }
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#main_content {
+  width: 100%; }
+
+#quote_content {
+  font-size: 2rem;
+  max-width: 80%;
+  text-align: right; }
+
+#quote_author {
+  margin-top: 2rem;
+  max-width: 80%;
+  text-align: right; }
+
+#reload {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8; }
+
+#reload:hover {
+  opacity: 1; }
+
+#reload svg {
+  margin-right: 1rem; }
+
+
+/*# sourceMappingURL=bundle.css.map*/

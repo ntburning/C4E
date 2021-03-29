@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.main-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-pane {
+  width: 240px;
+  padding: 0.5rem;
+  border: #cccccc 1px solid;
+}
+
+.progress-tray {
+  height: 2px;
+  background-color: #cccccc;
+}
+
+.progress {
+  width: 60%;
+  height: 100%;
+  background-color: #568556;
+}
+
+.score {
+  text-align: right;
+  margin: 0.5rem;
+}
+
+#quiz {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 8rem 0 8rem 0;
+}
+
+.btn {
+  width: 30%;
+  opacity: 0.8;
+  background-color: #cccccc;
+  cursor: pointer;
+  display: block;
+}
+
+.btn .content {
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  display: block;
+}
+
+.btn.correct {
+  background-image: url('../../public/check.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn.incorrect {
+  background-image: url('../../public/clear.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-pad {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.settings {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  border: 1px #cccccc solid;
+  padding: 0.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.settings .header {
+  margin-bottom: 1rem;
+}
+
+.settings .header svg {
+  margin-right: 8px;
+}
+
+.settings-content label {
+  font-size: 0.8rem;
+}
+
+.settings-content input {
+  margin-right: 0.8rem;
+}

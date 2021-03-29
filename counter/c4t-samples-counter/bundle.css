@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace; }
+
+#root {
+  height: 100%;
+  display: flex; }
+
+.box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.full-height {
+  height: 100%; }
+
+.full-width {
+  width: 100%; }
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #cccccc;
+  opacity: 0.8;
+  width: 2rem;
+  height: 2rem; }
+
+.text-large {
+  font-size: 1rem; }
+
+.btn:hover {
+  opacity: 1; }
+
+#counter {
+  font-size: 1.5rem;
+  margin: 0 1rem 0 1rem; }
+
+#main_content {
+  display: flex;
+  align-items: center; }
+
+
+/*# sourceMappingURL=bundle.css.map*/
